@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#header{
+    background-color: rgb(44, 144, 233);
+    border-bottom: 5px solid rgb(241, 111, 111);
+    
+}
+
+#header h1{
+    padding-top: 20px ;
+    padding-bottom: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(252, 51, 1);
+    text-shadow: 0 0 10px rgb(26, 0, 143);
+    display: inline-block;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+} 
+
+.navbar{
+    float: right;
+}
+
+.navbar li{
+display: inline;
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 25px 15px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+
+.navbar i{
+    background-color: white;
+    border-radius: 50%;
+    font-size:x-large;
+}
+
+.translation i{
+    margin-left: 40px;
+    font-size: xx-large;
+    background-color: red   ;
+}
+
+#banner{
+    height: 60vh;
+    background-image: url(./rasm/Image\ from\ wp-s.ru\ 1366x768.jpg);
+    background-size: cover;
+    background-position: center center;
+    
+} 
+
+#banner h2{
+    text-align: left;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(87, 233, 68);
+    
+}
+
+#banner .container{
+    padding-top: 100px;
+}
+
+#banner pre{
+    color: white;
+    font-family: sans-serif;
+    text-align: left;
+    padding-top: 25PX;
+    padding-left: 0;
+}
+
+.container button{
+border-radius: 20px;
+width: 100px;
+font-family: sans-serif;
+color: rgb(33, 130, 241);
+background-color:black;
+padding: 10px 20px ;
+}
+
+.container button:hover{
+    color: black;
+    background-color:rgb(33, 130, 241);
+    transition: all 2s;
+    cursor: pointer;
+    box-shadow: 0 5px rgb(94, 117, 245);
+    transform: translateY(4px);
+}
+
+.search{
+    float:right;
+}
+.search button{
+    width:70px ;
+    padding: 30px, 10px;
+}
+.search input{
+    border-radius: 20px;
+    width:200px;
+    padding: 8px 7px;
+}
